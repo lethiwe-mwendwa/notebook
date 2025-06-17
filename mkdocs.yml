@@ -1,0 +1,8 @@
+site_name: Lethiwe's Mind
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Blog: blog.md
+
+theme: terminal
