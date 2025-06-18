@@ -1,8 +1,11 @@
-site_name: Lethiwe's Mind
+site_name: Lethiwe's Notebook
 nav:
   - Home: index.md
-  - About: about.md
+  - About Me: about.md
+  - Study Notes: notes.md
   - Projects: projects.md
-  - Blog: blog.md
 
 theme: terminal
+
+extra_css:
+  - stylesheets/extra.css
