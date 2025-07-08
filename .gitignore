@@ -15,7 +15,7 @@ pip-delete-this-directory.txt
 
 # ===== MkDocs =====
 # Build output folder
-site/
+#site/
 
 # ===== VS Code =====
 .vscode/
