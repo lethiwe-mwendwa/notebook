@@ -1,4 +1,3 @@
----
 
 **Learning Applied Mathematics for Computational Mechanics**
 
@@ -6,7 +5,6 @@ This is a structured pathway toward mastering the mathematical foundations neede
 
 I have not yet started recording my learning here ⚠️
 
----
 
 ## 🧪 1. Foundational Mathematics
 

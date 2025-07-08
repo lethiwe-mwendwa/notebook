@@ -1,9 +1,17 @@
 site_name: Lethiwe's Notebook
 nav:
   - Home: index.md
-  - About Me: about.md
-  - Study Notes: notes.md
-  - Projects: projects.md
+  - About: about.md
+  - Blogs:
+    - Software Dev: Work\devWork.md
+    - Philosophy: Work\philosophyWork.md
+    - Creative Work: Work\creativeWork.md
+  - Media Journal:
+    - Movies: Media Journal\movies.md
+    - Books: Media Journal\books.md
+    - Manga: Media Journal\manga.md
+    - Videos: Media Journal\videos.md
+
 
 theme: terminal
 
