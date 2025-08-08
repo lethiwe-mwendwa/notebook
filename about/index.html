@@ -24,6 +24,9 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -53,7 +56,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -100,8 +108,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -184,6 +192,8 @@
   
   
   
+    
+  
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
@@ -227,173 +237,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Blogs
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Blogs
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Work/devWork.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Software Dev
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Work/philosophyWork.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Philosophy
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Media Journal
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Media Journal
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Work/creativeWork.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Creative Work
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="https://lethiwe-mwendwa.github.io" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Digital Card
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -428,15 +271,17 @@
   <h1>About</h1>
 
 <p><strong>Who am I?</strong></p>
-<p>My name is Lethiwe Mwendwa and I am a software engineer interested in Computational Sciences, Maths and Physics.</p>
+<p>My name is Lethiwe Mwendwa and I am a software engineer interested in Computational Science, Maths and Physics.</p>
+<p>Most recently I was an Intern at Microsoft in London, and a Senior Committee member of Nottingham Trent University's
+Developer's Society.</p>
 <ul>
 <li><a href="https://github.com/lethiwe-mwendwa" target="_blank" rel="noopener noreferrer">GitHub</a></li>
 <li><a href="https://www.linkedin.com/in/lethiwe-mwendwa/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
 </ul>
 <hr />
-<p><strong>Send me an email</strong>
- 
-<form
+<!--
+**Send me an email**
+ <form
   action="https://formsubmit.co/lethiwe.mwendwa@gmail.com"
   method="POST"
 >
@@ -449,10 +294,12 @@
     <textarea name="message"></textarea>
   </label>
   <input type="hidden" name="_next" value="https://domainname.co/thanks.md">
-  <!-- your other form fields go here -->
+  <!-- your other form fields go here 
   <button class="btn btn-default" type="submit">Send</button>
-</form></p>
-<hr />
+</form>
+---
+
+-->
 
 
 
